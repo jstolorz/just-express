@@ -1,1 +1,15 @@
-<h1>Hello</h1>
+
+
+<h1><%= msg %></h1>
+<h1><%= msg2 %></h1>
+<h1><%= validated %></h1>
+
+<%- html %>
+
+<% for(let i = 0; i < 10; i++ ){ %>
+  <% if(i % 2 === 0) {txt = 'even' %>
+  <% }else {txt = 'odd'} %>
+  <li><%= i %> - <%=txt %></li>
+<% }%>
+
+<%# This is comment %>
